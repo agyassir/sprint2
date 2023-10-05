@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -20,6 +20,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    justify-items: flex-start;
     align-items: center;
 }
 
@@ -38,7 +39,7 @@
 /* Styles for the custom hero section */
 .custom-hero {
     background-size: contain;
-    background-image:url(image/cover\ \(1\).jpg) ;
+    background-image: url(image/cover\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     image-resolution: 1080;
@@ -62,7 +63,7 @@
 .custom-hero .custom-hero-description {
     font-size: 18px;
     color: #fff;
-   margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 /* Styles for the custom buttons */
@@ -78,31 +79,36 @@
 .custom-primary-btn {
     background-color: #fff;
     color: #bcb6b6;
-    border:solid 2px;
+    border: solid 2px;
     border-color: #989898;
-    position: relative; 
+    position: relative;
     right: 67px;
 }
-.custom-primary-btn:hover{
+
+.custom-primary-btn:hover {
     background-color: #d42e2e;
     color: #bcb6b6;
 }
+
 .custom-sfas-btn {
     background-color: #d42e2e;
     color: #fff;
     right: 50px;
-    
+
 }
-.custom-sfas-btn:hover{
+
+.custom-sfas-btn:hover {
     background-color: #fff;
     color: #d42e2e;
 }
+
 .custom-secondary-btn {
     background-color: #d42e2e;
     color: #fff;
-    
+
 }
-.custom-secondary-btn:hover{
+
+.custom-secondary-btn:hover {
     background-color: #fff;
     color: #d42e2e;
 
@@ -164,7 +170,7 @@
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    width: 1500px;
+    width: auto;
 }
 
 .custom-footer .custom-footer-inner {
@@ -180,3 +186,45 @@
     color: #d42e2e;
     text-decoration: none;
 }
+
+.custom-header .custom-header-inner a:hover {
+    text-decoration: none;
+    color: #d42e2e;
+
+}
+
+a {
+    color: white;
+}
+
+.custom-header .custom-header-inner .home,
+.custom-header .custom-header-inner .categorie,
+.custom-header .custom-header-inner .cart,
+.custom-header .custom-header-inner .login,
+.custom-header .custom-header-inner .signup {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.custom-header .custom-header-inner a:hover .home
+{
+    visibility: visible;
+}
+
+.custom-header .custom-header-inner a:hover .home,
+.custom-header .custom-header-inner a:hover .categorie ,
+.custom-header .custom-header-inner a:hover.cart,
+.custom-header .custom-header-inner a:hover.login,
+.custom-header .custom-header-inner a:hover.signup {
+    visibility: visible;
+  }
