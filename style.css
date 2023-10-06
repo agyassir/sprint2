@@ -77,7 +77,7 @@
 
 .custom-primary-btn {
     background-color: #fff;
-    color: #bcb6b6;
+    color: #545050;
     border: solid 2px;
     border-color: #989898;
     position: relative;
@@ -86,7 +86,8 @@
 
 .custom-primary-btn:hover {
     background-color: #d42e2e;
-    color: #bcb6b6;
+    color: #fff;
+    border-color: #333;
 }
 
 .custom-sfas-btn {
@@ -129,7 +130,7 @@
 
 /* Styles for the custom cards */
 .custom-card {
-    background-color: #fff;
+    background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin: 10px;
@@ -141,14 +142,14 @@
 
 .custom-card img {
     background-size: cover;
-    max-width: 100%;
     max-height: fit-content;
-    height: 400px;
-    width: 600px;
+    height: auto;
+    width: 300px;
     margin: -20px;
     margin-bottom: 10px;
     margin-left: -20px;
     margin-right: -20px;
+    aspect-ratio: 1.88;
 
 }
 
@@ -165,7 +166,7 @@
 
 /* Styles for the custom footer */
 .custom-footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -182,7 +183,7 @@
 }
 
 .custom-footer .custom-footer-link {
-    color: #d42e2e;
+    color: #E77979;
     text-decoration: none;
 }
 
@@ -196,34 +197,7 @@ a {
     color: white;
 }
 
-.custom-header .custom-header-inner .home,
-.custom-header .custom-header-inner .categorie,
-.custom-header .custom-header-inner .cart,
-.custom-header .custom-header-inner .login,
-.custom-header .custom-header-inner .signup {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
-    width: 120px;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
+img{
+    width: 600px;
+    height: 200px;
 }
-.custom-header .custom-header-inner a:hover .home
-{
-    visibility: visible;
-}
-
-.custom-header .custom-header-inner a:hover .home,
-.custom-header .custom-header-inner a:hover .categorie ,
-.custom-header .custom-header-inner a:hover.cart,
-.custom-header .custom-header-inner a:hover.login,
-.custom-header .custom-header-inner a:hover.signup {
-    visibility: visible;
-  }
