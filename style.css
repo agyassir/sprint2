@@ -38,7 +38,7 @@
 /* Styles for the custom hero section */
 .custom-hero {
     background-size: contain;
-    background-image: url(image/cover\ \(1\).svg);
+    background-image: url(image/cover\(1\).svg);
     background-repeat: no-repeat;
     background-size: cover;
     image-resolution: 1080;
